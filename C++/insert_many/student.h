@@ -4,19 +4,20 @@
 
 template <typename T>
 void CP::vector<T>::insert_many(CP::vector<std::pair<int,T>> data) {
-  T *arr = new T[mSize+data.size()+1]();
   std::sort(data.begin(),data.end());
-  int ins = 0;
+  T *arr = new T[mSize+data.size()+1]();
+  size_t j = 0;
   for (size_t i = 0 ; i <= mSize ; i++){
-    if (data[ins].first == i){
-      arr[i+ins] = data[ins].second;
-      ins++;
+    if (data[j].first != i){
+      arr[i+j] = mData[i];
+    } else {
+      arr[i+j] = data[j].second;
+      j++;
     }
-    arr[i+ins] = mData[i];
   }
   delete [] mData;
   mData = arr;
-  mSize = size() + data.size();
+  mSize = mSize+data.size();
   mCap = mSize;
 }
 

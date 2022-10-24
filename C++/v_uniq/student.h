@@ -8,15 +8,13 @@ using namespace std;
 template <typename T>
 void CP::vector<T>::uniq() {
   //do someting here
-  set<T> s;
   T *arr = new T[mSize]();
+  set<T> s;
   int count = 0;
   for (size_t i = 0 ; i < mSize ; i++){
-    if (s.find(mData[i])==s.end()){
-      arr[count] = mData[i];
-      count++;
+    if (s.find(mData[i]) == s.end()){
+
     }
-    s.insert(mData[i]);
   }
   delete [] mData;
   mData = arr;
