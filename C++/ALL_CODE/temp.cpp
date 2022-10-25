@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 int main(){
-  size_t i = 0 ;
-  int j = 1;
-  size_t k = j;
-  std::cout << i << k;
+  std::vector<int> v;
+  v.resize(3);
+  v[1] = 3;
+  for (auto x : v){
+    std::cout << x << " ";
+  }
 }

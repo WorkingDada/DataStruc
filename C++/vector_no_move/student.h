@@ -6,12 +6,15 @@
 template <typename T>
 T& CP::vector_no_move<T>::operator[](int idx) {
   //your code here
-  int i,t = 0;
-  while (idx > mData[i].size()){
-    idx-=mData[i++].size();
-    t++;
+  size_t i = 0;
+  for (size_t i = 0 ; i < mSize ; i++){
+    if (idx >= mData[i].size()){
+      i++ ; idx-=mData[i].size();
+    } else {
+      break;
+    }
   }
-  return mData[t][i];
+  return mData[i][idx];
 }
 
 template <typename T>
