@@ -10,6 +10,7 @@ int main()
     if (k == 1){
         std::cout << n-1;
     } else {
+        
         while (n>0){
             n -= i;
             i *= k;

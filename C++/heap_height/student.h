@@ -4,10 +4,16 @@
 #include <stdio.h>
 #include "priority_queue.h"
 #include <iostream>
+#include <math.h>
 
 template <typename T,typename Comp >
 int CP::priority_queue<T,Comp>::height() const {
   //write your code here
+  if (mSize ==0){
+    return -1;
+  } else {
+    return int(log2(mSize));
+  }
 }
 
 #endif
