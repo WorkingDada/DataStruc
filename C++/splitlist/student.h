@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+void splitList(list<T>& list1, list<T>& list2) {
+    auto it = begin();
+    for (size_t i = 0 ; i < mSize - mSize/2 ; i++ , it++){ }
+
+}
+=======
 void splitList(list<T>& list1, list<T>& list2) {
     auto it = begin();
     int i = 0;
@@ -21,3 +28,4 @@ void splitList(list<T>& list1, list<T>& list2) {
     mHeader->prev = mHeader;
     mSize = 0;
 }
+>>>>>>> 0f1e1999fa32c698838dddf7dfa32b9aecb92a9e
