@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1668687248 source:c:\users\patta\desktop\datastruc\c++\list_extract\main.cpp
+	<stdexcept>
+	<assert.h>
+	<vector>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	"list.h"
+	"student.h"
+
+1635788299 c:\users\patta\desktop\datastruc\c++\list_extract\list.h
+	<stdexcept>
+	<iostream>
+
+1668932777 c:\users\patta\desktop\datastruc\c++\list_extract\student.h
+	<algorithm>
+

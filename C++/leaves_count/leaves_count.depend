@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1574570643 source:c:\users\patta\desktop\datastruc\c++\leaves_count\main.cpp
+	<stdexcept>
+	<iostream>
+	"map_bst.h"
+	"student.h"
+	<vector>
+
+1574570253 c:\users\patta\desktop\datastruc\c++\leaves_count\map_bst.h
+	<iostream>
+
+1668883482 c:\users\patta\desktop\datastruc\c++\leaves_count\student.h
+	<algorithm>
+	<iostream>
+

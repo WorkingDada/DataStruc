@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1668939141 source:c:\users\patta\desktop\datastruc\c++\all_code\playlist\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+

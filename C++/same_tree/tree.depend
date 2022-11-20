@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1511597974 source:c:\users\patta\desktop\datastruc\c++\same_tree\main.cpp
+	<iostream>
+	"tree.h"
+
+1668875368 c:\users\patta\desktop\datastruc\c++\same_tree\tree.h
+

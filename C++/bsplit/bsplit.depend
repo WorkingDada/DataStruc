@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1493743094 source:c:\users\patta\desktop\datastruc\c++\bsplit\main.cpp
+	<stdexcept>
+	<vector>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"map_bst.h"
+	"student.h"
+	<algorithm>
+
+1668872139 c:\users\patta\desktop\datastruc\c++\bsplit\map_bst.h
+	<iostream>
+
+1668873150 c:\users\patta\desktop\datastruc\c++\bsplit\student.h
+

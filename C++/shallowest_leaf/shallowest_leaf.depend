@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1606127208 source:c:\users\patta\desktop\datastruc\c++\shallowest_leaf\main.cpp
+	<stdexcept>
+	<iostream>
+	"map_bst.h"
+	"student.h"
+	<vector>
+
+1606127190 c:\users\patta\desktop\datastruc\c++\shallowest_leaf\map_bst.h
+	<iostream>
+
+1668949008 c:\users\patta\desktop\datastruc\c++\shallowest_leaf\student.h
+	<algorithm>
+	<iostream>
+

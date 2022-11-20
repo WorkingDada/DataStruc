@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1668877986 source:c:\users\patta\desktop\datastruc\c++\imbalance\main.cpp
+	<iostream>
+	"map_bst.h"
+
+1542725522 c:\users\patta\desktop\datastruc\c++\imbalance\map_bst.h
+	<iostream>
+	"student.h"
+
+1668880138 c:\users\patta\desktop\datastruc\c++\imbalance\student.h
+
